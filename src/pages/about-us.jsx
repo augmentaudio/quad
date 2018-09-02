@@ -102,28 +102,28 @@ const IndexPage = (props: Props) => {
 
             <div className="row gap-y">
               <Founder
-                name="Timo Maas"
-                func="Physics MSc ETH"
-                description={i18n.t`Computer vision background, badminton guy, wants to build a space elevator`}
+                name="Peter Bergeiz"
+                func="Computer Science PhD"
+                description={i18n.t`Blockchain Artisan and Stellar early enthusiast.`}
                 twitterlink="https://twitter.com/"
                 linkedinlink="https://www.linkedin.com"
-                mail="timo@Quadblock.co"
+                mail="peter@quadblock.co"
                 img={data.timo}
               />
               <Founder
-                name="Gerhart Brandt"
+                name="Clarence Greets"
                 func="Physics MSc ETH"
-                description={i18n.t`Battery science background, martial arts, fascinated by electric cars`}
+                description={i18n.t`A creative and international team player, who has led several successful teams.`}
                 twitterlink="https://twitter.com/"
                 linkedinlink="https://www.linkedin.com"
-                mail="gerhart@Quadblock.co"
+                mail="clarence@quadblock.co"
                 img={data.ben}
               />
               <Founder
                 name="Helena Sprig"
-                func="Physics MSc ETH"
-                description={i18n.t`Medical physics background, loves running, wondering about brain-machine interfaces`}
-                twitterlink="https://twitter.com/"
+                func="Legal & Financial"
+                description={i18n.t`specialist in commodities, derivatives, securities and FinTech/Reg Tech`}
+                twitterlink="https PhD://twitter.com/"
                 linkedinlink="https://www.linkedin.com"
                 mail="helena@Quadblock.co"
                 img={data.yoko}
@@ -160,15 +160,15 @@ const IndexPage = (props: Props) => {
 
             <div className="row gap-y">
               <Investor
-                name="Myke Näf"
+                name="Paul Läuf"
                 func="Board Member"
-                description={i18n.t`Entrepreneur, Business Angel, Founder of Doodle.com`}
+                description={i18n.t`Entrepreneur, Business Angel, Founder of kloop.nl`}
                 img={data.myke}
               />
               <Investor
-                name="Dr. Paul E. Sevinç"
+                name="Dr. Jonathan Pettstrom"
                 func="Board Member"
-                description={i18n.t`Entrepreneur, Technologist, Founder of Doodle.com`}
+                description={i18n.t`World-class consultant with over ten years’ experience in the legal, finance, retail, and IT industries.`}
                 img={data.paul}
               />
               <Investor
@@ -181,15 +181,15 @@ const IndexPage = (props: Props) => {
 
             <div className="row gap-y justify-content-center">
               <Investor
-                name="Adrian Bührer"
+                name="Adrian Klandt"
                 func="Advisor"
-                description={i18n.t`Investor & Consultant (Farmy.ch, Flatfox.ch), Founder of Students.ch`}
+                description={i18n.t`Renown cryptocurrency expert and ICO advisor (Top-5 worldwide ICObench Certified Expert).`}
                 img={data.adrian}
               />
               <Investor
-                name="Elena Walder-Schiavone"
+                name="Dr. Susana Atif"
                 func="Advisor"
-                description={i18n.t`M&A and Private Equity Lawyer with a focus on start-up legal advise, Smartuplaw.ch`}
+                description={i18n.t`Dr. Atif is a Senior Data Scientist with AI Blockchain.`}
                 img={data.elena}
               />
             </div>

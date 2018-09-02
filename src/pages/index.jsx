@@ -29,7 +29,7 @@ const Header = ({ i18n, data, prefix }: Props) => (
             <p><Trans>Try Quadblock now. It’s <Link href to={`${prefix}/pricing/`}>free</Link>.</Trans></p>
           </div>
           <a className="btn btn-block d-sm-inline btn-xl mx-1 btn-round btn-outline-light" href={demoUrl} target="_blank" rel="noopener noreferrer"><Trans>See the demo</Trans></a>
-          <a className="btn btn-block d-sm-inline btn-xl mx-1 btn-round btn-light" href="#"><Trans>Get Started</Trans></a>
+          <a className="btn btn-block d-sm-inline btn-xl mx-1 btn-round btn-light" href="#references"><Trans>Get Started</Trans></a>
         </div>
 
         <div className="col-lg-6 order-lg-first" data-aos="fade-up">
@@ -105,28 +105,28 @@ export const pageQuery = graphql`
       sizes(maxWidth: 2000) { ...GatsbyImageSharpSizes_noBase64 }
     }
 
-    viu: imageSharp(id: { regex: "/viu/" }) {
+    viu: imageSharp(id: { regex: "/travolution/" }) {
       resolutions(width: 120) { ...GatsbyImageSharpResolutions }
     }
-    quitt: imageSharp(id: { regex: "/quitt/" }) {
+    quitt: imageSharp(id: { regex: "/propy/" }) {
       resolutions(width: 80) { ...GatsbyImageSharpResolutions }
     }
-    cryptofund: imageSharp(id: { regex: "/cryptofund/" }) {
+    cryptofund: imageSharp(id: { regex: "/chain/" }) {
       resolutions(width: 180) { ...GatsbyImageSharpResolutions }
     }
-    sherpany: imageSharp(id: { regex: "/sherpany/" }) {
+    sherpany: imageSharp(id: { regex: "/bancor/" }) {
       resolutions(width: 150) { ...GatsbyImageSharpResolutions }
     }
-    frontify: imageSharp(id: { regex: "/frontify/" }) {
+    frontify: imageSharp(id: { regex: "/payxpert/" }) {
       resolutions(width: 150) { ...GatsbyImageSharpResolutions }
     }
-    bexio: imageSharp(id: { regex: "/bexio/" }) {
+    bexio: imageSharp(id: { regex: "/ccn/" }) {
       resolutions(width: 110) { ...GatsbyImageSharpResolutions }
     }
-    allthings: imageSharp(id: { regex: "/allthings/" }) {
+    allthings: imageSharp(id: { regex: "/crypterium/" }) {
       resolutions(width: 150) { ...GatsbyImageSharpResolutions }
     }
-    farmy: imageSharp(id: { regex: "/farmy/" }) {
+    farmy: imageSharp(id: { regex: "/tokener/" }) {
       resolutions(width: 130) { ...GatsbyImageSharpResolutions }
     }
   }
