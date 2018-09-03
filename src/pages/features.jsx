@@ -70,10 +70,11 @@ export default withI18n()(({ i18n, ...props }: Props) => (
             url="charts"
           >
             <Trans>
-              Let your employees be part of your company’s success.
-              quadblock supports vested stock, options, inverse vesting,
-              ESOP pools, and much more.<br />
-              Employees can even log in to quadblock and track their vested shares in real-time.
+              Technical Analysis is the forecasting of future financial price movements based on an
+              examination of past price movements. Like weather forecasting, technical analysis does
+              not result in absolute predictions about the future. Instead, technical analysis can
+              help investors anticipate what is “likely” to happen to prices over time. <br />
+              Technical analysis uses a wide variety of charts that show price over time.
             </Trans>
           </Feature>
 
@@ -126,7 +127,7 @@ export default withI18n()(({ i18n, ...props }: Props) => (
               <h5><Trans>Privacy</Trans></h5>
               <p>
                 <Trans>
-                  blockchain investments data is sensitive.
+                  Blockchain investment data is sensitive.
                   That’s why we genuinely care about your privacy.
                 </Trans>
                 <br />
