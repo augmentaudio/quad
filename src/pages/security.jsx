@@ -11,7 +11,7 @@ const Header = ({ i18n }: Props) => (
   <header className="header text-white bg-quadblock">
     <Title
       title={i18n.t`Security`}
-      description={i18n.t`At quadblock we take your security seriously. Strong passwords, robust encryption, two-factor authentication, and permanent code reviews are among our high safety standards. Find out more about why you can have peace-of-mind while managing your cap table with quadblock.`}
+      description={i18n.t`At quadblock we take your security seriously. Strong passwords, robust encryption, two-factor authentication, and permanent code reviews are among our high safety standards. Find out more about why you can have peace-of-mind while managing your blockchain investments with quadblock.`}
     />
 
     <div className="container text-center">
@@ -36,7 +36,7 @@ const IndexPage = ({ i18n, ...props }: Object) => (
           <header className="section-header text-left">
             <p>
               <Trans>
-                We understand how sensitive cap table information is for any business.
+                We understand how sensitive blockchain investments information is for any business.
                 That’s why your privacy and your data’s security is crucial to us.
                 Here is what we do to protect your data.
               </Trans>

@@ -32,7 +32,7 @@ const IndexPage = ({ i18n, ...props }: Props) => (
         <Section>
           <p>
             <Trans>
-              We understand how sensitive cap table information is for any business.
+              We understand how sensitive blockchain investments information is for any business.
               That’s why your privacy and your data’s security is crucial to us.
               We also know that long and complicated privacy policies are not
               very helpful, so we give an overview up-front.
@@ -65,7 +65,7 @@ const IndexPage = ({ i18n, ...props }: Props) => (
             <PrivacyElement
               icon="fa fa-pie-chart"
               title={i18n.t`Company information`}
-              body={i18n.t`Company name, and other company details. To properly use our Service you may enter the share ledger transactions and other cap table details.`}
+              body={i18n.t`Company name, and other company details. To properly use our Service you may enter the share ledger transactions and other blockchain investments details.`}
               size="6"
             />
           </PrivacyRow>
@@ -143,7 +143,7 @@ const IndexPage = ({ i18n, ...props }: Props) => (
           <p>
             We may collect user information, usage statistics and browser information
             (“Personal Data”) as outlined above. To use our Service at its best,
-            you may enter the share ledger transactions and other cap table details.
+            you may enter the share ledger transactions and other blockchain investments details.
             Please note: We strictly separate Personal Data from company information.
             Nobody has any access to your company information.
           </p>

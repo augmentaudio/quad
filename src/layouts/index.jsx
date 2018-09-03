@@ -111,7 +111,7 @@ const Footer = (props: LayoutProps) => (
               <Link className="nav-link" href to={`${props.prefix}/pricing/`}><Trans>Pricing</Trans></Link>
               <Link className="nav-link" href to={`${props.prefix}/features/consistency/`}><Trans>Consistency</Trans></Link>
               <Link className="nav-link" href to={`${props.prefix}/features/round-modeling/`}><Trans>Portfolio Management</Trans></Link>
-              <Link className="nav-link" href to={`${props.prefix}/features/esop/`}><Trans>Charts</Trans></Link>
+              <Link className="nav-link" href to={`${props.prefix}/features/charts/`}><Trans>Charts</Trans></Link>
               <Link className="nav-link" href to={`${props.prefix}/features/reporting/`}><Trans>Blockchain</Trans></Link>
               <Link className="nav-link" href to={`${props.prefix}/features/investors/`}><Trans>Investors</Trans></Link>
             </div>
@@ -162,11 +162,11 @@ const TemplateWrapper = withI18n()((props: SiteProps) => {
     <div>
       <Title
         title={i18n.t`Quad Blockchain :: Build knowledge in Blockchain`}
-        description={i18n.t`Manage your Cap Table, not your Excel! quadblock is the single place to track the complete history of your shares, manage your ESOPs and model detailed financing rounds. Enjoy a guaranteed error-free cap table and engage your investors and employees. Try Now For Free!`}
+        description={i18n.t`Manage your blockchain investments, not your Excel! quadblock is the single place to track the complete history of your shares, manage your Charts and model detailed financing rounds. Enjoy a guaranteed error-free blockchain investments and engage your investors and employees. Try Now For Free!`}
       />
       <Helmet>
         <html lang={props.lang} />
-        <meta name="keywords" content={i18n.t`cap table, stock ledger, share register, startup, round modeling, equity, esop, reporting, investors`} />
+        <meta name="keywords" content={i18n.t`blockchain investments, stock ledger, share register, startup, round modeling, equity, charting, reporting, investors`} />
         <meta name="author" content="quadblock" />
 
         {/* Facebook social card */}

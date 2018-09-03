@@ -67,7 +67,7 @@ export default withI18n()(({ i18n, ...props }: Props) => (
           <Feature
             {...props}
             name={i18n.t`Charts`}
-            url="esop"
+            url="charts"
           >
             <Trans>
               Let your employees be part of your company’s success.
@@ -113,7 +113,7 @@ export default withI18n()(({ i18n, ...props }: Props) => (
 
           <div className="mx-auto text-center my-8">
             <Link href to={`${props.prefix}/all-features/`} className="btn btn-block d-sm-inline btn-round btn-xl btn-outline-primary mt-6" >
-              <Trans>Discover all cap table features</Trans>
+              <Trans>Discover all blockchain investments features</Trans>
             </Link>
           </div>
 
@@ -126,7 +126,7 @@ export default withI18n()(({ i18n, ...props }: Props) => (
               <h5><Trans>Privacy</Trans></h5>
               <p>
                 <Trans>
-                  Cap table data is sensitive.
+                  blockchain investments data is sensitive.
                   That’s why we genuinely care about your privacy.
                 </Trans>
                 <br />

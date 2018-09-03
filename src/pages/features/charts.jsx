@@ -11,7 +11,7 @@ import { Title } from '../../layouts/utils';
 export default withI18n()(({ i18n, ...props }: Props) => (
   <div>
     <Title
-      title={i18n.t`Chart`}
+      title={i18n.t`Charts`}
       section={i18n.t`Features`}
       description={i18n.t`Have someone keep an eye on your Technical Anlaysis whilst you are not at work.`}
     />
@@ -140,7 +140,7 @@ export default withI18n()(({ i18n, ...props }: Props) => (
             </div>
           </div>
 
-          <FeatureLinks {...props} i18n={i18n} page="esop" />
+          <FeatureLinks {...props} i18n={i18n} page="charts" />
 
         </div>
       </section>
@@ -153,7 +153,7 @@ export default withI18n()(({ i18n, ...props }: Props) => (
 
 // eslint-disable-next-line no-undef
 export const pageQuery = graphql`
-  query ESOPQuery {
+  query ChartsQuery {
     ...FeaturesFragment
 
     addIncentive: imageSharp(id: { regex: "/portfolio-gains.png/" }) {

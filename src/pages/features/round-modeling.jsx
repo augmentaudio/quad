@@ -80,7 +80,7 @@ export default withI18n()(({ i18n, ...props }: Props) => (
 
             <div className="row gap-y">
               <div className="col-md-10 mx-auto mb-7" data-aos="fade-left">
-                <Img {...props.data.roundModelingCaptable} alt={i18n.t`Cap table during round modeling`} />
+                <Img {...props.data.roundModelingCaptable} alt={i18n.t`blockchain investments during round modeling`} />
               </div>
             </div>
           </div>

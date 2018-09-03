@@ -88,7 +88,7 @@ export const FeatureLinks = ({ i18n, ...props }: {
       {props.page !== 'index' &&
         <FeatureLink {...props} name={i18n.t`Consistency`} url="consistency" />}
       <FeatureLink {...props} name={i18n.t`Portfolio Management`} url="round-modeling" />
-      <FeatureLink {...props} name={i18n.t`Charts`} url="esop" />
+      <FeatureLink {...props} name={i18n.t`Charts`} url="charts" />
       <FeatureLink {...props} name={i18n.t`Blockchain`} url="reporting" />
       <FeatureLink {...props} name={i18n.t`Investors`} url="investors" />
 
@@ -105,7 +105,7 @@ export const FeaturesFragment = graphql`
     roundModeling: imageSharp(id: { regex: "/round-modeling.png/" }) {
       sizes(maxWidth: 800) { ...GatsbyImageSharpSizes }
     }
-    esop: imageSharp(id: { regex: "/esop.png/" }) {
+    charts: imageSharp(id: { regex: "/esop.png/" }) {
       sizes(maxWidth: 800) { ...GatsbyImageSharpSizes }
     }
     reporting: imageSharp(id: { regex: "/reporting.png/" }) {

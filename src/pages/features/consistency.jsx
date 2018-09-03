@@ -14,7 +14,7 @@ export default withI18n()(({ i18n, ...props }: Props) => (
     <Title
       title={i18n.t`Consistency`}
       section={i18n.t`Features`}
-      description={i18n.t`Track the complete history of your shares. Integrated consistency checks will guarantee that your cap table is error-free.`}
+      description={i18n.t`Track the complete history of your shares. Integrated consistency checks will guarantee that your blockchain investments is error-free.`}
     />
 
     <header className="header text-white bg-quadblock">
@@ -47,7 +47,7 @@ export default withI18n()(({ i18n, ...props }: Props) => (
                   <br /><br />
                   To get started enter all transactions from your share
                   register into quadblock. That’s an excellent opportunity to understand
-                  what has been going on in your cap table.<br /><br />
+                  what has been going on in your blockchain investments.<br /><br />
                   Need help? <Link href to={`${props.prefix}/contact/`}>Contact us</Link>, and
                   we will assist you to get started with quadblock.
                 </Trans>
@@ -56,7 +56,7 @@ export default withI18n()(({ i18n, ...props }: Props) => (
 
             <div className="row gap-y">
               <div className="col-md-10 mx-auto mb-7" data-aos="fade-up">
-                <Img {...props.data.createCaptable} alt={i18n.t`Create a cap table`} />
+                <Img {...props.data.createCaptable} alt={i18n.t`Create a blockchain investments`} />
               </div>
             </div>
           </div>
@@ -66,9 +66,9 @@ export default withI18n()(({ i18n, ...props }: Props) => (
               <p>
                 <Trans>
                   Oops, there was an error in your share register?
-                  Don’t worry; quadblock will assist you in getting your cap table straight.<br />
+                  Don’t worry; quadblock will assist you in getting your blockchain investments straight.<br />
                   Once finished, sit back and relax. Now you can be assured that
-                  your cap table is error-free!
+                  your blockchain investments is error-free!
                 </Trans>
               </p>
             </div>
@@ -120,7 +120,7 @@ export default withI18n()(({ i18n, ...props }: Props) => (
               <h2><Trans>Nice charts!</Trans></h2>
               <p>
                 <Trans>
-                  Finished? Go back to the <i>Cap Table</i> page
+                  Finished? Go back to the <i>blockchain investments</i> page
                   and view the result.
                   At any point in the history of your share register, quadblock
                   can draw you a helpful diagram that represents the current equity
@@ -131,7 +131,7 @@ export default withI18n()(({ i18n, ...props }: Props) => (
 
             <div className="row gap-y">
               <div className="col-md-10 mx-auto mb-7" data-aos="fade-up">
-                <Img {...props.data.captableBasic} alt={i18n.t`A basic cap table`} />
+                <Img {...props.data.captableBasic} alt={i18n.t`A basic blockchain investments`} />
               </div>
             </div>
           </div>
