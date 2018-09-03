@@ -165,7 +165,7 @@ export const pageQuery = graphql`
     sendHoldingConfirmation: imageSharp(id: { regex: "/send-holding-confirmation.png/" }) {
       sizes(maxWidth: 800) { ...GatsbyImageSharpSizes }
     }
-    holdingConfirmationPdf: imageSharp(id: { regex: "/holding-confirmation-pdf.png/" }) {
+    holdingConfirmationPdf: imageSharp(id: { regex: "/reports.png/" }) {
       sizes(maxWidth: 2000) { ...GatsbyImageSharpSizes }
     }
     documentManagement: imageSharp(id: { regex: "/document-management.png/" }) {

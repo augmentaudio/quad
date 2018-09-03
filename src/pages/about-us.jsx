@@ -172,9 +172,9 @@ const IndexPage = (props: Props) => {
                 img={data.paul}
               />
               <Investor
-                name="Luzius Meisser"
+                name="Chad Kreuger"
                 func="Advisor"
-                description={i18n.t`Founder of Meisser Economics, Bitcoin Association Switzerland, and Wuala`}
+                description={i18n.t`Founder of bitcointalk.com, early investor and bitcoin pioneer.`}
                 img={data.luzius}
               />
             </div>

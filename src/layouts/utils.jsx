@@ -6,7 +6,7 @@ import { Helmet } from 'react-helmet';
 export const name = 'quadblock';
 export const appUrl = 'https://app.quadblock.co';
 export const demoUrl = 'https://app.quadblock.co';
-export const blogUrl = 'https://blog.quadblock.co';
+export const blogUrl = '#';
 
 export const Title = (props: {
   title: string,
