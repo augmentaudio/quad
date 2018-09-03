@@ -43,14 +43,14 @@ export default withI18n()(({ i18n }: Props) => (
 
             <div className="col-lg-4">
               <div className="pricing-3 border rounded text-left">
-                <h4><Trans>Cap Table on Steroids</Trans></h4>
+                <h4><Trans>Portfolio rebalancing</Trans></h4>
                 <ul className="mb-0 mt-5">
                   <li><Trans>Funding Round Modeling</Trans></li>
                   <li><Trans>Full Transaction History</Trans></li>
                   <li><Trans>Consistency Checks</Trans></li>
                   <li><Trans>Transaction Filters</Trans></li>
-                  <li><Trans>Convertible Loans</Trans></li>
-                  <li><Trans>Stock Split</Trans></li>
+                  <li><Trans>Scenario simulation</Trans></li>
+                  <li><Trans>Compliance management</Trans></li>
                   <li><Trans>Unlimited Share Classes</Trans></li>
                   <li><Trans>Numbered shares</Trans></li>
                 </ul>
@@ -60,13 +60,13 @@ export default withI18n()(({ i18n }: Props) => (
 
             <div className="col-lg-4">
               <div className="pricing-3 border rounded text-left">
-                <h4><Trans>Employee Incentives</Trans></h4>
+                <h4><Trans>Performance measurement – GIPS/IRR</Trans></h4>
                 <ul className="mb-0 mt-5">
-                  <li><Trans>Employee Options</Trans></li>
-                  <li><Trans>Approved Capital Pools</Trans></li>
-                  <li><Trans>Vesting Schedules</Trans></li>
-                  <li><Trans>Fully-diluted View</Trans></li>
-                  <li><Trans>Employee Login</Trans></li>
+                  <li><Trans>Breakout allocations and returns</Trans></li>
+                  <li><Trans>Scenario tool</Trans></li>
+                  <li><Trans>Yield curve analysis</Trans></li>
+                  <li><Trans>Cash flow analysis</Trans></li>
+                  <li><Trans>Complex fee calculations</Trans></li>
                   <li><Trans>Multiple Administrators</Trans></li>
                   <li><Trans>Read-only Access</Trans></li>
                   <li><Trans>Investor Dashboard</Trans></li>

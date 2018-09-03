@@ -11,9 +11,9 @@ import { Title } from '../../layouts/utils';
 export default withI18n()(({ i18n, ...props }: Props) => (
   <div>
     <Title
-      title={i18n.t`ESOP`}
+      title={i18n.t`Chart`}
       section={i18n.t`Features`}
-      description={i18n.t`Keep your employees motivated at work. They deserve it. quadblock's ESOP module will help you to make it happen.`}
+      description={i18n.t`Have someone keep an eye on your Technical Anlaysis whilst you are not at work.`}
     />
 
     <header className="header text-white bg-quadblock">
@@ -21,7 +21,7 @@ export default withI18n()(({ i18n, ...props }: Props) => (
 
         <div className="row">
           <div className="col-12 col-lg-8 offset-lg-2">
-            <h1><Trans>Employee Stock Ownership Plans</Trans></h1>
+            <h1><Trans>Charts</Trans></h1>
           </div>
         </div>
 
@@ -35,23 +35,17 @@ export default withI18n()(({ i18n, ...props }: Props) => (
 
           <div>
             <header className="section-header text-left">
-              <h2><Trans>Make your employees happy</Trans></h2>
+              <h2><Trans>Make clear decisions</Trans></h2>
               <p>
                 <Trans>
-                  Are you building a fast-growing company and want your valuable
-                  employees to be part of your success?
-                  quadblock offers you a powerful module to manage your
-                  employee stock ownership plans.
-                  No matter if you transfer real stock from your company to an employee,
-                  options from a fixed-size pool or even phantom stock.
+                  Quadblock allow you to dissect your portfolio and gain a clear view of your holdings.
+                  You can evaluate your overall asset allocation and sector weightings as well as uncover
+                  concentrated positions, view the stock holdings behind your mutual funds, measure performance
+                  against benchmarks and industry indexes, and stay up-to-date on the latest news and corporate
+                  actions relating to your holdings.
                   <br /><br />
-                  Add a vesting schedule to your ESOPs and track their status in real-time.
-                  Coolest thing ever, let your employees log in to quadblock and allow them
-                  to see at any point in time how much stock they have already vested and
-                  how many shares are still outstanding.
-                  <br /><br />
-                  Go to your <i>Transactions</i> page and click
-                  the <i>Add incentive</i> button to get started.
+                  While the underlying calculations and methodology are quite sophisticated,
+                  Quadblock gives <i>graphical representation</i> of results is easy for even novice investors to understand.
                 </Trans>
               </p>
             </header>
@@ -67,11 +61,9 @@ export default withI18n()(({ i18n, ...props }: Props) => (
             <div className="col-md-4">
               <p>
                 <Trans>
-                  You can create a detailed vesting schedule by defining over how
-                  many months the shares are to be vested if there’s a cliff and
-                  how often a new batch of shares gets assigned to the employee.<br />
-                  As soon as you enter the first numbers, you will see a visual representation
-                  of the current schedule.
+                  More than simple performance tracking, Portfolio Manager delivers the independent insights,
+                  analysis, news, and research you need to understand your performance and improve your financial
+                  outlook.
                 </Trans>
               </p>
             </div>
@@ -87,10 +79,13 @@ export default withI18n()(({ i18n, ...props }: Props) => (
             <div className="col-md-4 ml-auto">
               <p>
                 <Trans>
-                  In the case that your employee shares are implemented as options
-                  or phantom stock, you might want to define an ESOP pool first.
-                  Click the <i>Add pool</i> to create an options or
-                  phantom stock pool of a given share class and a fixed size.
+                Access global markets through an institutional technology platform
+                Quadblock one-stop trading portal
+                <br /><br />
+                Secure trading, management and storage for digital assets, tailorable to specific requirements
+                A unified interface for connecting to several exchanges, wallets and cold storage with a consolidated ledger of all assets
+                Setup, service and maintenance of all connections and accounts.
+
                 </Trans>
               </p>
             </div>
@@ -104,10 +99,17 @@ export default withI18n()(({ i18n, ...props }: Props) => (
             <div className="col-md-4 ml-auto">
               <p>
                 <Trans>
-                  After you have added a pool, you can select it from the incentives
-                  screen.
-                  Check back at your <i>Cap Table</i> and press <i>Fully diluted</i> to see
-                  the newly created pool and employee incentives!
+                One integrated back office.
+                Single integrated back office for all markets,connections and products.
+                Tailored reports and confirmations.
+                Personalised back office support
+                A cost-sharing infrastructure
+                All-in formation cost for full visibility
+                <br /><br />
+                Pre-defined legal and regulatory infrastructure costs
+                Aggregated audit and fund administration costs
+                Institutional rates for transaction and prime broker services, regardless of fund size
+                Live and tested
                 </Trans>
               </p>
             </div>
@@ -121,13 +123,12 @@ export default withI18n()(({ i18n, ...props }: Props) => (
 
           <div>
             <header className="section-header text-left">
-              <h2><Trans>Keep your employees engaged</Trans></h2>
+              <h2><Trans>Experience</Trans></h2>
               <p>
                 <Trans>
-                  Once your incentives are submitted to quadblock, it’s time to
-                  engage your employees.
-                  They can log in to quadblock themselves with their email
-                  address at any time and see how many shares they have already vested.
+                Refined through 20+ years experience in providing financial services,to institutional clients
+                in 37 countries.
+                Formation time? We’ll have you trading your own hedge fund within three months.
                 </Trans>
               </p>
             </header>
@@ -155,16 +156,16 @@ export const pageQuery = graphql`
   query ESOPQuery {
     ...FeaturesFragment
 
-    addIncentive: imageSharp(id: { regex: "/add-incentive.png/" }) {
+    addIncentive: imageSharp(id: { regex: "/portfolio-gains.png/" }) {
       sizes(maxWidth: 800) { ...GatsbyImageSharpSizes }
     }
-    vestingSchedule: imageSharp(id: { regex: "/vesting-schedule.png/" }) {
+    vestingSchedule: imageSharp(id: { regex: "/chart.png/" }) {
       sizes(maxWidth: 800) { ...GatsbyImageSharpSizes }
     }
-    addPool: imageSharp(id: { regex: "/add-pool.png/" }) {
+    addPool: imageSharp(id: { regex: "/chart2.png/" }) {
       sizes(maxWidth: 800) { ...GatsbyImageSharpSizes }
     }
-    addIncentivePsop: imageSharp(id: { regex: "/add-incentive-psop.png/" }) {
+    addIncentivePsop: imageSharp(id: { regex: "/chart3.png/" }) {
       sizes(maxWidth: 800) { ...GatsbyImageSharpSizes }
     }
     incentivesDashboard: imageSharp(id: { regex: "/incentives-dashboard.png/" }) {

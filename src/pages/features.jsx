@@ -20,7 +20,7 @@ export default withI18n()(({ i18n, ...props }: Props) => (
         <div className="row">
           <div className="col-12 col-lg-8 offset-lg-2">
 
-            <h1><Trans>Manage your shares.<br />Not your Excel.</Trans></h1>
+            <h1><Trans>Manage your Portfolio.<br />Not your Excel.</Trans></h1>
 
           </div>
         </div>
@@ -40,11 +40,10 @@ export default withI18n()(({ i18n, ...props }: Props) => (
             url="consistency"
           >
             <Trans>
-              Did you know that many share registers are incomplete or
-              contain errors?
-              Building a share register with Excel or Word can quickly lead to
+              Did you know that many excel spreadsheets with API calls fail just when you need them most?
+              Tracking trades and investments with Excel or Word can quickly lead to
               inconsistencies.
-              Set up your shares with quadblock
+            Track your portfolio with Quadblock
               and be sure that all data is consistent at any time.
             </Trans>
           </Feature>
@@ -53,15 +52,13 @@ export default withI18n()(({ i18n, ...props }: Props) => (
 
           <Feature
             {...props}
-            name={i18n.t`Funding Round Modeling`}
+            name={i18n.t`Portfolio Management`}
             url="round-modeling"
             left
           >
             <Trans>
-              What’s the stake percentage of the founders after a VC
-              invests $2,000,000 at a valuation of $7,500,000 taking into account
-              the 2 outstanding convertible loans and increasing the ESOP pool?<br />
-              Honestly, we don’t know. But quadblock does.
+              A complete view by delivering the tools you need to produce accurate financial reports,
+              reconcile portfolio data, and calculate real-time NAV and P&L.
             </Trans>
           </Feature>
 
@@ -69,7 +66,7 @@ export default withI18n()(({ i18n, ...props }: Props) => (
 
           <Feature
             {...props}
-            name={i18n.t`Employee Stock Ownership Plans`}
+            name={i18n.t`Charts`}
             url="esop"
           >
             <Trans>

@@ -69,10 +69,11 @@ export default withI18n()(({ i18n, ...props }: Props) => (
             <header className="section-header text-left">
               <p>
                 <Trans>
-                  Scroll down, and you will notice that the cap table now
-                  indicates the <i>Round Modeling</i> mode.
-                  This gives you a detailed overview of who owns how many shares
-                  after applying the new financing round. Cool, eh?
+                  The solution for organizations that want a project and portfolio management
+                  software that is based in solid, proven decision analytics and backed by
+                  enterprise-level data management tools -- effectively stamping out the
+                  labyrinth of email, conflicting spreadsheet revisions and "which are the
+                  latest results" debacles so teams can focus on what matters most -- creating portfolio value!
                 </Trans>
               </p>
             </header>
@@ -89,14 +90,11 @@ export default withI18n()(({ i18n, ...props }: Props) => (
               <h2><Trans>Share your scenarios</Trans></h2>
               <p>
                 <Trans>
-                  After you’re finished with modeling your financing round, you can
-                  download the scenario as a PDF document and share it with your co-founders,
-                  lawyers and investors.
-                  The document includes the pre- and post-money valuation of your company,
-                  all investments, and convertibles with their resulting share price
-                  and the number of shares and, of course, the resulting cap table.
-                  At the end of the document, you will also find valuable plots to visualize the new
-                  development step of your company.
+                  Quadblock has served corporations as the desktop analytical engine integrated into a broader portfolio decision
+                  support system. More recently, we have extended the desktop application into a server-based
+                  application to better serve clients with the most demanding needs,
+                  i.e. lots of users, lots of projects, and a whole lot of complexity.
+
                 </Trans>
               </p>
             </header>
@@ -116,9 +114,10 @@ export default withI18n()(({ i18n, ...props }: Props) => (
               <h2><Trans>Convert to transactions</Trans></h2>
               <p>
                 <Trans>
-                  As soon as you’re done with your financing round, hit the <i>Convert</i> button.
-                  This will transform the scenario into real transactions for your
-                  share register and make it visible to all shareholders and investors.
+                Now, Quadblock brings it all together by fitting DPL Portfolio, Excel spreadsheet valuation,
+                a central portal and all the other data management "stuff" together into a single box.
+                Quadblock provides a customizable valuation model so you can easily and quickly whip up an
+                enterprise-grade database-powered, intranet-accessed portfolio analysis system.
                 </Trans>
               </p>
             </div>
