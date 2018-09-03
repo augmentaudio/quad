@@ -113,13 +113,13 @@ export const pageQuery = graphql`
   query InvestorsQuery {
     ...FeaturesFragment
 
-    dashboardCards: imageSharp(id: { regex: "/dashboard-cards.png/" }) {
+    dashboardCards: imageSharp(id: { regex: "/portfolio.png/" }) {
       sizes(maxWidth: 800) { ...GatsbyImageSharpSizes }
     }
-    dashboardShares: imageSharp(id: { regex: "/dashboard-shares.png/" }) {
+    dashboardShares: imageSharp(id: { regex: "/portfolio-balance.png/" }) {
       sizes(maxWidth: 800) { ...GatsbyImageSharpSizes }
     }
-    dashboardHistory: imageSharp(id: { regex: "/dashboard-history.png/" }) {
+    dashboardHistory: imageSharp(id: { regex: "/google-trends.png/" }) {
       sizes(maxWidth: 800) { ...GatsbyImageSharpSizes }
     }
   }

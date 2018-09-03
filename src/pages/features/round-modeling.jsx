@@ -11,9 +11,9 @@ import { Title } from '../../layouts/utils';
 export default withI18n()(({ i18n, ...props }: Props) => (
   <div>
     <Title
-      title={i18n.t`Funding Round Modeling`}
+      title={i18n.t`Portfolio Management & Accounting`}
       section={i18n.t`Features`}
-      description={i18n.t`Simulate the outcome of your upcoming financing rounds. Detailed models give you a headstart over angels and VCs.`}
+      description={i18n.t`A multi-asset class portfolio accounting system.`}
     />
 
     <header className="header text-white bg-quadblock">
@@ -21,7 +21,7 @@ export default withI18n()(({ i18n, ...props }: Props) => (
 
         <div className="row">
           <div className="col-12 col-lg-8 offset-lg-2">
-            <h1><Trans>Funding Round Modeling</Trans></h1>
+            <h1><Trans>Portfolio Management & Accounting</Trans></h1>
           </div>
         </div>
 
@@ -37,27 +37,23 @@ export default withI18n()(({ i18n, ...props }: Props) => (
             <header className="section-header text-left">
               <h2>
                 <Trans>
-                  Explore new scenarios for upcoming financing rounds interactively
+                  Multi-asset class portfolio accounting system.
                 </Trans>
               </h2>
               <p>
                 <Trans>
-                  Is your startup running well and you’re already thinking about
-                  a new financing round to fuel your growth and take your
-                  company to the next level?
+                  A complete view by delivering the tools you need to produce accurate
+                  financial reports, reconcile portfolio data, and calculate real-time
+                  NAV and P&L.
                   <br />
                   <br />
-                  Enter a valuation, and you will see how your convertibles apply
-                  to your cap table immediately.
-                  If your convertible has a cap, discount or
-                  an interest—quadblock does the math for you.
-                  Add an investment and enter the value of the investment.
-                  Watch in real-time how the new investment impacts your current
-                  shareholder distribution.
+                  Satisfy investors and regulator requirements with scheduled and automated custom reports. Maintain
+                  accurate intraday and historical records of all your transactions and positions.
+                  Save time and money by automating repetitive and manual middle- and back-office tasks.
+                  Maintain an accurate and holistic view of your portfolios.
                   <br />
                   <br />
-                  You can find the round modeling tool directly on
-                  the <i>Cap Table</i> page.
+                  Get a real-time view of your data the way <i>you want to see it.</i>
                 </Trans>
               </p>
             </header>
@@ -148,16 +144,16 @@ export const pageQuery = graphql`
   query RoundModelingQuery {
     ...FeaturesFragment
 
-    roundModelingSample: imageSharp(id: { regex: "/round-modeling-sample.png/" }) {
+    roundModelingSample: imageSharp(id: { regex: "/portfolio.png/" }) {
       sizes(maxWidth: 800) { ...GatsbyImageSharpSizes }
     }
-    roundModelingCaptable: imageSharp(id: { regex: "/round-modeling-captable.png/" }) {
+    roundModelingCaptable: imageSharp(id: { regex: "/cointrends.png/" }) {
       sizes(maxWidth: 800) { ...GatsbyImageSharpSizes }
     }
-    roundModelingPdf: imageSharp(id: { regex: "/round-modeling-pdf.png/" }) {
+    roundModelingPdf: imageSharp(id: { regex: "/google-trends.png/" }) {
       sizes(maxWidth: 2000) { ...GatsbyImageSharpSizes }
     }
-    roundModelingConvert: imageSharp(id: { regex: "/round-modeling-convert.png/" }) {
+    roundModelingConvert: imageSharp(id: { regex: "/ema-google-trends.png/" }) {
       sizes(maxWidth: 800) { ...GatsbyImageSharpSizes }
     }
   }

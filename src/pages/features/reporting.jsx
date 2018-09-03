@@ -11,9 +11,9 @@ import { Title } from '../../layouts/utils';
 export default withI18n()(({ i18n, ...props }: Props) => (
   <div>
     <Title
-      title={i18n.t`Documents & Reporting`}
+      title={i18n.t`Blockchain Technology`}
       section={i18n.t`Features`}
-      description={i18n.t`Save painful work inserting numbers into templates. Automated documents and reports at your fingertips.`}
+      description={i18n.t`Blockchain is a new disruptive technology with huge potential.`}
     />
 
     <header className="header text-white bg-quadblock">
@@ -21,7 +21,7 @@ export default withI18n()(({ i18n, ...props }: Props) => (
 
         <div className="row">
           <div className="col-12 col-lg-8 offset-lg-2">
-            <h1><Trans>Documents & Reporting</Trans></h1>
+            <h1><Trans>Blockchain</Trans></h1>
           </div>
         </div>
 
@@ -35,19 +35,19 @@ export default withI18n()(({ i18n, ...props }: Props) => (
 
           <div>
             <header className="section-header text-left">
-              <h2><Trans>Make your cap table legally binding</Trans></h2>
+              <h2><Trans>Take control of your investments.</Trans></h2>
               <p>
                 <Trans>
-                  To create a legally binding share register, it
-                  must contain a handwritten signature.
-                  With quadblock you can download a beautiful snapshot
-                  of your company’s shares structure.
-                  Print and sign it to have a legally valid document.
+                Focus on the essentials:
+                Tailored solution approach, for example, to quantify realizable savings or added value
+                with the help of Blockchain technology in the company. Providing up-to-date market knowledge
+                and bringing in our end-to-end project experience, in-house developments and proof-of-concepts.
+
+
                   <br /><br />
-                  It includes the current cap table, including the non-diluted and
-                  fully-diluted stake of each shareholder (if you have options or phantom stock),
-                  your convertibles and ESOPs, and finally the transaction history,
-                  which tracks every change ever made to your cap table since the incorporation.
+                  Create transparency, reduce complexity:
+                  Realistic quantification of optimization potentials by mirroring the process structure and
+                  case-specific simulation of smart contracts with the goal of process digitization.
                 </Trans>
               </p>
             </header>
@@ -64,20 +64,23 @@ export default withI18n()(({ i18n, ...props }: Props) => (
 
 
           <header className="section-header text-left">
-            <h2><Trans>Send holding confirmations with ease</Trans></h2>
+            <h2><Trans>Smart contracts</Trans></h2>
           </header>
 
           <div className="row align-items-center my-8">
             <div className="col-md-6 ml-auto">
               <p>
                 <Trans>
-                  Remember that day last year during tax season when you had to send
-                  holding confirmations to each shareholder, filling out boring
-                  Word templates by hand?
+                Smart contracts in the financial industry: when hype becomes reality
+                The potential of so-called smart contracts - programmable contracts that
+                automatically execute actions such as payments as soon as predefined
+                conditions are met - is currently much discussed in the financial industry.
+
                   <br /><br />
-                  We’ve got the solution for you. With a single click, quadblock creates
-                  nicely formatted holding confirmations for all of your shareholders
-                  and send them directly via email.
+                  These virtual contracts are based on Distributed Ledger Technology (DLT), also
+                  known as Blockchain, and are considered to be the cure for many of the
+                  drawbacks of traditional financial contracts that do not meet the new
+                  opportunities of digital transformation.
                   <br /><br />
                   Reduce hours of tedious work to just a few seconds. Hurray!
                 </Trans>
@@ -94,10 +97,11 @@ export default withI18n()(({ i18n, ...props }: Props) => (
             <header className="section-header text-left">
               <p>
                 <Trans>
-                  The holding confirmation lists all assets that a shareholder owns,
-                  as well as their total value needed for the tax declaration.
-                  Employees will be able to see their stock ownership plans and
-                  how many of their total shares they already have vested.
+                By evaluating investment strategies and holdings in numerous ways,
+                Quadblock arms financial professionals with valuable insight for
+                more informed investing decisions.
+
+
                   <br />
                   All documents are ready to be sent to the tax authority!
                 </Trans>
@@ -119,19 +123,14 @@ export default withI18n()(({ i18n, ...props }: Props) => (
               <h2><Trans>Bring order to your documents</Trans></h2>
               <p>
                 <Trans>
-                  Every transaction in your share register usually comes with a
-                  pile of additional documents, like contracts.
-                  Get rid of complicated folder structures and attach them
-                  directly to your transactions.
-                  quadblock gives you an overview of all documents that you uploaded and
-                  their corresponding transactions.
-                  Also in your transaction history, you can select any transaction and see
-                  all connected documents at a glance.
+                  monitor the markets to effectively manage your investments.
+                  Data is stored in the cloud or locally on your computer,
+                  and can be shared between users with our integrated on-line
+                  sync service.
                   <br /><br />
-                  You can also share your documents by sending a simple
-                  link to your shareholders.
-                  This eliminates confusion about different
-                  versions of documents, as it is often the case when sending documents via email.
+                  Quadblock can connect to all popular exchanges using the API feature
+                  and it automatically fetches the new trading data. Apart from saving time,
+                  this ensures you are always aware of your investments in real-time.
                 </Trans>
               </p>
             </header>
@@ -159,13 +158,13 @@ export const pageQuery = graphql`
   query ReportingQuery {
     ...FeaturesFragment
 
-    shareRegisterPdf: imageSharp(id: { regex: "/share-register-pdf.png/" }) {
+    shareRegisterPdf: imageSharp(id: { regex: "/cointracking.png/" }) {
       sizes(maxWidth: 2400) { ...GatsbyImageSharpSizes }
     }
-    sendHoldingConfirmation: imageSharp(id: { regex: "/send-holding-confirmation.png/" }) {
+    sendHoldingConfirmation: imageSharp(id: { regex: "/smartcontracts.png/" }) {
       sizes(maxWidth: 800) { ...GatsbyImageSharpSizes }
     }
-    holdingConfirmationPdf: imageSharp(id: { regex: "/reports.png/" }) {
+    holdingConfirmationPdf: imageSharp(id: { regex: "/bitcoin-chart.png/" }) {
       sizes(maxWidth: 2000) { ...GatsbyImageSharpSizes }
     }
     documentManagement: imageSharp(id: { regex: "/document-management.png/" }) {
