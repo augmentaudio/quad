@@ -32,7 +32,7 @@ export default withI18n()(({ i18n, ...props }: Props) => (
           <header className="section-header">
             <p>
               <Trans>
-                quadblock scales with your needs. Free for startups, powerful for grown-ups.
+                Quadblock scales with your needs. Free for startups, powerful for grown-ups.
                 It’s currently free, nevertheless, this probably changes soon.
                 If you sign up now, we’ll make sure, that our loyal first users will
                 get a good deal.
@@ -50,8 +50,8 @@ export default withI18n()(({ i18n, ...props }: Props) => (
                 <h2 className="price mb-0"><Trans>Free</Trans></h2>
                 <small className="text-muted">&nbsp;</small>
                 <ul className="text-left mt-6 mb-0">
-                  <li><Trans>Up to 25 shareholders</Trans></li>
-                  <li><Trans>All cap table features</Trans></li>
+                  <li><Trans>Up to 25 Stocks</Trans></li>
+                  <li><Trans>All Quadblock features</Trans></li>
                 </ul>
               </div>
             </div>
@@ -60,13 +60,13 @@ export default withI18n()(({ i18n, ...props }: Props) => (
             <div className="col-lg-4">
               <div className="pricing-3 popular border rounded">
                 <span className="popular-tag"><Trans>coming soon</Trans></span>
-                <h6><Trans>Fast-growing Startup</Trans></h6>
+                <h6><Trans>Hedge Funds</Trans></h6>
                 <h2 className="price mb-0"><Trans>€2</Trans></h2>
-                <small className="text-muted"><Trans>per shareholder per month</Trans></small>
+                <small className="text-muted"><Trans>per account per month</Trans></small>
                 <ul className="text-left mt-6 mb-0">
-                  <li><Trans>Up to 50 shareholders</Trans></li>
-                  <li><Trans>All cap table features</Trans></li>
-                  <li><Trans>Free cap table import</Trans></li>
+                  <li><Trans>Up to 50 stocks</Trans></li>
+                  <li><Trans>All Pro features</Trans></li>
+                  <li><Trans>Free API exchange integrations</Trans></li>
                 </ul>
               </div>
             </div>
@@ -77,11 +77,11 @@ export default withI18n()(({ i18n, ...props }: Props) => (
                 <span className="popular-tag"><Trans>coming soon</Trans></span>
                 <h6><Trans>Unicorn</Trans></h6>
                 <h2 className="price mb-0"><Trans>€5</Trans></h2>
-                <small className="text-muted"><Trans>per shareholder per month</Trans></small>
+                <small className="text-muted"><Trans>per account per month</Trans></small>
                 <ul className="text-left mt-6 mb-0">
                   <li><Trans>Unlimited shareholders</Trans></li>
-                  <li><Trans>All cap table features</Trans></li>
-                  <li><Trans>Free cap table import</Trans></li>
+                  <li><Trans>All pro features</Trans></li>
+                  <li><Trans>Free API exchange integrations</Trans></li>
                   <li><Trans>Premium support</Trans></li>
                 </ul>
               </div>
@@ -96,7 +96,7 @@ export default withI18n()(({ i18n, ...props }: Props) => (
             </Trans>
             <br /><br />
             <Link href to={`${props.prefix}/all-features/`} className="btn btn-block d-sm-inline btn-round btn-xl btn-outline-primary mt-6" >
-              <Trans>Discover all cap table features</Trans>
+              <Trans>Discover all Quadblock features</Trans>
             </Link>
           </div>
 

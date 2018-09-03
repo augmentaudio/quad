@@ -88,7 +88,7 @@ export const FeatureLinks = ({ i18n, ...props }: {
       {props.page !== 'index' &&
         <FeatureLink {...props} name={i18n.t`Consistency`} url="consistency" />}
       <FeatureLink {...props} name={i18n.t`Portfolio Management`} url="round-modeling" />
-      <FeatureLink {...props} name={i18n.t`ESOP`} url="esop" />
+      <FeatureLink {...props} name={i18n.t`Charts`} url="esop" />
       <FeatureLink {...props} name={i18n.t`Blockchain`} url="reporting" />
       <FeatureLink {...props} name={i18n.t`Investors`} url="investors" />
 
