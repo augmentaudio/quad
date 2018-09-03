@@ -22,8 +22,7 @@ const Header = ({ i18n, data, prefix }: Props) => (
               We study evolving use cases of disruptive value chains that can be applied across all
               industries.
                 <br /><br />
-                Get a comprehensive overview of your investment strategy and check the status of your
-                vesting schedule.
+              Comprehensive tools you need to produce accurate financial reports, reconcile portfolio data, and calculate real-time NAV and P&L.
               </Trans>
             </p>
             <p><Trans>Try Quadblock now. It’s <Link href to={`${prefix}/pricing/`}>free</Link>.</Trans></p>
@@ -61,7 +60,7 @@ const IndexPage = (props: Props) => (
             <hr className="my-2" />
             <p>
               <Trans>
-                Many successful companies already use quadblock to manage their ownership
+                Many successful companies already use Quadblock...
               </Trans>
             </p>
           </header>
