@@ -66,7 +66,7 @@ const IndexPage = (props: Props) => (
           </header>
 
           <div className="partner">
-            <Reference img={props.data.bexio} name="Bexio" />
+            <Reference img={props.data.bexio} name="Travolution" />
             <Reference img={props.data.cryptofund} name="CryptoFund" />
             <Reference img={props.data.viu} name="VIU Eyeware" />
             <Reference img={props.data.allthings} name="Allthings Technologies" />
@@ -122,7 +122,7 @@ export const pageQuery = graphql`
     bexio: imageSharp(id: { regex: "/ccn/" }) {
       resolutions(width: 110) { ...GatsbyImageSharpResolutions }
     }
-    allthings: imageSharp(id: { regex: "/crypterium/" }) {
+    allthings: imageSharp(id: { regex: "/lightspeed/" }) {
       resolutions(width: 150) { ...GatsbyImageSharpResolutions }
     }
     farmy: imageSharp(id: { regex: "/tokener/" }) {
