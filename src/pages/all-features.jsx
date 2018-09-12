@@ -60,7 +60,7 @@ export default withI18n()(({ i18n }: Props) => (
 
             <div className="col-lg-4">
               <div className="pricing-3 border rounded text-left">
-                <h4><Trans>Performance measurement – GIPS/IRR</Trans></h4>
+                <h4><Trans>Performance measurement</Trans></h4>
                 <ul className="mb-0 mt-5">
                   <li><Trans>Breakout allocations and returns</Trans></li>
                   <li><Trans>Scenario tool</Trans></li>

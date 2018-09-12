@@ -17,22 +17,20 @@ const Header = ({ i18n, data, prefix }: Props) => (
           <div className="mb-4 text-white">
             <h1><Trans>Build knowledge in Blockchain</Trans></h1>
             <p>
-              <Trans>
-              Quad consultancy helps companies to understand and invest in blockchain technology.
+              <Trans>Quad blockchain helps companies to understand and invest in blockchain technology.
               We study evolving use cases of disruptive value chains that can be applied across all
-              industries.
+              industries.</Trans>
                 <br /><br />
-              Comprehensive tools you need to produce accurate financial reports, reconcile portfolio data, and calculate real-time NAV and P&L.
-              </Trans>
+                <Trans>Comprehensive tools you need to produce accurate financial reports, reconcile portfolio data, and calculate real-time NAV and P&L.</Trans>
             </p>
-            <p><Trans>Try Quadblock now. It’s <Link href to={`${prefix}/pricing/`}>free</Link>.</Trans></p>
+            <p><Trans>Try Quad blockchain now. It’s <Link href to={`${prefix}/pricing/`}>free</Link>.</Trans></p>
           </div>
           <a className="btn btn-block d-sm-inline btn-xl mx-1 btn-round btn-outline-light" href={demoUrl} target="_blank" rel="noopener noreferrer"><Trans>See the demo</Trans></a>
           <a className="btn btn-block d-sm-inline btn-xl mx-1 btn-round btn-light" href="#references"><Trans>Get Started</Trans></a>
         </div>
 
         <div className="col-lg-6 order-lg-first" data-aos="fade-up">
-          <Img {...data.laptop} alt={i18n.t`Screenshot of the quadblock app`} />
+          <Img {...data.laptop} alt={i18n.t`Screenshot of the Quad blockchain app`} />
         </div>
 
 
@@ -59,9 +57,7 @@ const IndexPage = (props: Props) => (
             <h2><Trans>You’re in good company</Trans></h2>
             <hr className="my-2" />
             <p>
-              <Trans>
-                Many successful companies already use Quadblock...
-              </Trans>
+              <Trans>Many successful companies already use Quadblock.</Trans>
             </p>
           </header>
 
@@ -113,8 +109,8 @@ export const pageQuery = graphql`
     cryptofund: imageSharp(id: { regex: "/greycroft/" }) {
       resolutions(width: 120) { ...GatsbyImageSharpResolutions }
     }
-    sherpany: imageSharp(id: { regex: "/bancor/" }) {
-      resolutions(width: 140) { ...GatsbyImageSharpResolutions }
+    sherpany: imageSharp(id: { regex: "/capti/" }) {
+      resolutions(width: 110) {...GatsbyImageSharpResolutions }
     }
     frontify: imageSharp(id: { regex: "/wings/" }) {
       resolutions(width: 120) { ...GatsbyImageSharpResolutions }
@@ -123,10 +119,10 @@ export const pageQuery = graphql`
       resolutions(width: 110) { ...GatsbyImageSharpResolutions }
     }
     allthings: imageSharp(id: { regex: "/travolution/" }) {
-      resolutions(width: 150) { ...GatsbyImageSharpResolutions }
+      resolutions(width: 130) { ...GatsbyImageSharpResolutions }
     }
-    farmy: imageSharp(id: { regex: "/capti/" }) {
-      resolutions(width: 100) { ...GatsbyImageSharpResolutions }
+    farmy: imageSharp(id: { regex: "/bancor/" }) {
+      resolutions(width: 130) { ...GatsbyImageSharpResolutions }
     }
   }
 `;
