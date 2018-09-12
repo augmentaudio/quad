@@ -105,18 +105,18 @@ export const pageQuery = graphql`
     }
 
     viu: imageSharp(id: { regex: "/travolution/" }) {
-      resolutions(width: 120) { ...GatsbyImageSharpResolutions }
+      resolutions(width: 140) { ...GatsbyImageSharpResolutions }
     }
     quitt: imageSharp(id: { regex: "/propy/" }) {
       resolutions(width: 130) { ...GatsbyImageSharpResolutions }
     }
-    cryptofund: imageSharp(id: { regex: "/chain/" }) {
-      resolutions(width: 180) { ...GatsbyImageSharpResolutions }
+    cryptofund: imageSharp(id: { regex: "/greycroft/" }) {
+      resolutions(width: 120) { ...GatsbyImageSharpResolutions }
     }
     sherpany: imageSharp(id: { regex: "/bancor/" }) {
-      resolutions(width: 150) { ...GatsbyImageSharpResolutions }
+      resolutions(width: 140) { ...GatsbyImageSharpResolutions }
     }
-    frontify: imageSharp(id: { regex: "/payxpert/" }) {
+    frontify: imageSharp(id: { regex: "/wings/" }) {
       resolutions(width: 120) { ...GatsbyImageSharpResolutions }
     }
     bexio: imageSharp(id: { regex: "/ccn/" }) {
@@ -125,8 +125,8 @@ export const pageQuery = graphql`
     allthings: imageSharp(id: { regex: "/lightspeed/" }) {
       resolutions(width: 150) { ...GatsbyImageSharpResolutions }
     }
-    farmy: imageSharp(id: { regex: "/tokener/" }) {
-      resolutions(width: 150) { ...GatsbyImageSharpResolutions }
+    farmy: imageSharp(id: { regex: "/kbw/" }) {
+      resolutions(width: 130) { ...GatsbyImageSharpResolutions }
     }
   }
 `;
