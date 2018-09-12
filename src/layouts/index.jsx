@@ -119,11 +119,11 @@ const Footer = (props: LayoutProps) => (
 
           <div className="col-6 col-md-6 col-xl-2 text-center px-1">
             <div className="social social-bordered">
-              <a className="social-twitter" href="https://twitter.com/quadblockCom"><i className="fa fa-twitter" /></a>
-              <a className="social-linkedin" href="https://www.linkedin.com/company/quadblock"><i className="fa fa-linkedin" /></a>
-              <a className="social-facebook" href="https://www.facebook.com/quadblockCom/"><i className="fa fa-facebook" /></a>
-              <a className="social-angellist" href="https://angel.co/quadblock"><i className="fa fa-angellist" /></a>
-              <a className="social-xing" href="https://www.xing.com/companies/quadblock"><i className="fa fa-xing" /></a>
+              <a className="social-twitter" href="#"><i className="fa fa-twitter" /></a>
+              <a className="social-linkedin" href="#"><i className="fa fa-linkedin" /></a>
+              <a className="social-facebook" href="#"><i className="fa fa-facebook" /></a>
+              <a className="social-angellist" href="#"><i className="fa fa-angellist" /></a>
+              <a className="social-xing" href="#"><i className="fa fa-xing" /></a>
             </div>
           </div>
 
@@ -213,11 +213,11 @@ export default class extends React.Component<{ location: { pathname: string } }>
       navigateTo(`/de${this.props.location.pathname}`);
     }
 
-    require('freshchat-widget'); // eslint-disable-line global-require
-    window.fcWidget.init({
-      token: '4c30de40-1c6c-4aa0-b32c-b424b7287d34',
-      host: 'https://wchat.freshchat.com',
-    });
+    // require('freshchat-widget'); // eslint-disable-line global-require
+    // window.fcWidget.init({
+    //   token: '4c30de40-1c6c-4aa0-b32c-b424b7287d34',
+    //   host: 'https://wchat.freshchat.com',
+    // });
   }
   render = () => {
     const lang = langFromPath(this.props.location.pathname);

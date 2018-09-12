@@ -108,7 +108,7 @@ export const pageQuery = graphql`
       resolutions(width: 120) { ...GatsbyImageSharpResolutions }
     }
     quitt: imageSharp(id: { regex: "/propy/" }) {
-      resolutions(width: 80) { ...GatsbyImageSharpResolutions }
+      resolutions(width: 130) { ...GatsbyImageSharpResolutions }
     }
     cryptofund: imageSharp(id: { regex: "/chain/" }) {
       resolutions(width: 180) { ...GatsbyImageSharpResolutions }
@@ -117,7 +117,7 @@ export const pageQuery = graphql`
       resolutions(width: 150) { ...GatsbyImageSharpResolutions }
     }
     frontify: imageSharp(id: { regex: "/payxpert/" }) {
-      resolutions(width: 150) { ...GatsbyImageSharpResolutions }
+      resolutions(width: 120) { ...GatsbyImageSharpResolutions }
     }
     bexio: imageSharp(id: { regex: "/ccn/" }) {
       resolutions(width: 110) { ...GatsbyImageSharpResolutions }
@@ -126,7 +126,7 @@ export const pageQuery = graphql`
       resolutions(width: 150) { ...GatsbyImageSharpResolutions }
     }
     farmy: imageSharp(id: { regex: "/tokener/" }) {
-      resolutions(width: 130) { ...GatsbyImageSharpResolutions }
+      resolutions(width: 150) { ...GatsbyImageSharpResolutions }
     }
   }
 `;
