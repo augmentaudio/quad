@@ -104,8 +104,8 @@ export const pageQuery = graphql`
       sizes(maxWidth: 2000) { ...GatsbyImageSharpSizes_noBase64 }
     }
 
-    viu: imageSharp(id: { regex: "/travolution/" }) {
-      resolutions(width: 140) { ...GatsbyImageSharpResolutions }
+    viu: imageSharp(id: { regex: "/lightspeed/" }) {
+      resolutions(width: 160) { ...GatsbyImageSharpResolutions }
     }
     quitt: imageSharp(id: { regex: "/propy/" }) {
       resolutions(width: 130) { ...GatsbyImageSharpResolutions }
@@ -122,11 +122,11 @@ export const pageQuery = graphql`
     bexio: imageSharp(id: { regex: "/ccn/" }) {
       resolutions(width: 110) { ...GatsbyImageSharpResolutions }
     }
-    allthings: imageSharp(id: { regex: "/lightspeed/" }) {
+    allthings: imageSharp(id: { regex: "/travolution/" }) {
       resolutions(width: 150) { ...GatsbyImageSharpResolutions }
     }
-    farmy: imageSharp(id: { regex: "/kbw/" }) {
-      resolutions(width: 130) { ...GatsbyImageSharpResolutions }
+    farmy: imageSharp(id: { regex: "/capti/" }) {
+      resolutions(width: 100) { ...GatsbyImageSharpResolutions }
     }
   }
 `;
