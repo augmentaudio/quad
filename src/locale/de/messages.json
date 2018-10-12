@@ -162,7 +162,7 @@
   "Give us a call or stop by our door anytime. If you can’t reach us, we will get back to you as fast as possible.": "Ruf an oder komm vorbei. Falls du uns nicht erreichst, werden wir uns so schnell wie möglich bei dir melden.",
   "8008 Zurich, Switzerland": "8008 Zürich, Schweiz",
   "Use quadblock to track all your shares, manage your ESOPs and model detailed financing rounds.<0/><1/>Are you an investor or employee? Get a comprehensive overview of your investment and check the status of your vesting schedule.": "Verwende quadblock, um deine Aktien im Griff zu haben, verwalte ESOPs und modelliere detaillierte Finanzierungsrunden. <0/> <1/> Du bist Investor oder Angestellter? Erhalte einen detaillierten Überblick über deine Investitionen und bleib’ bei deinem Vesting auf dem Laufenden.",
-  "Try quadblock now. It’s <0>free</0>.": "Jetzt mit quadblock loslegen. <0>Kostenlos</0>.",
+  "Try quadblock now.<0/>It’s free.": "Jetzt mit quadblock loslegen.<0>Kostenlos.",
   "See the demo": "Teste die Demo",
   "Screenshot of the quadblock app": "Screenshot der quadblock-App",
   "You’re in good company": "Du befindest dich in guter Gesellschaft",
@@ -222,5 +222,6 @@
   "HTTP headers prevent cross-site scripting and code injection (<0>A+ rating</0>)": "HTTP-Header verhindern Cross-Site-Scripting und Code-Injection (<0>A+-Rating</0>)",
   "Backups": "Backups",
   "Daily backups ensure nothing is ever lost": "Tägliche Backups stellen sicher, dass nichts verloren gehen kann",
-  "If you have any questions or discover anything suspicious, please <0>get in touch</0>.": "Wenn du Fragen hast oder irgend etwas Verdächtiges entdeckst, melde dich bei uns."
+  "If you have any questions or discover anything suspicious, please <0>get in touch</0>.": "Wenn du Fragen hast oder irgend etwas Verdächtiges entdeckst, melde dich bei uns.",
+  "Try Quad blockchain now": "Versuchen Sie Quad Blockchain jetzt"
 }

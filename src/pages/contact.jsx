@@ -57,12 +57,12 @@ const IndexPage = (props: Object) => (
 
             <div className="row">
               <div className="col-md-6">
-                <h6>Quadblock</h6>
+                <h6>Quad Blockchain</h6>
                 <p>
-                    13 West Street<br />
-                    London<br />
-                  <Trans>W3 5HT</Trans>
-
+                13 West St<br />
+                Harrow<br />
+                London<br />
+                HA1 3ED<br />
                 </p>
               </div>
               <div className="col-md-6">
